@@ -1,12 +1,15 @@
 #nginx
-node:20-alpine
+#node:20-alpine
 
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
+
+#redroid/redroid:13.0.0-latest    
+#emptysuns/scrcpy-web:v0.1
+
 #rocker/rstudio
-redroid/redroid:13.0.0-latest
-emptysuns/scrcpy-web:v0.1
+kingzhuky/meripseqpipe:dev
 
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
